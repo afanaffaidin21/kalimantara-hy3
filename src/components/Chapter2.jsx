@@ -46,13 +46,21 @@ function BeforeAfterSlider() {
       onPointerMove={onPointerMove}
       onPointerUp={onPointerUp}
       className="relative h-[340px] w-full cursor-ew-resize select-none overflow-hidden rounded-3xl border border-white/10 sm:h-[460px]"
+      style={{
+        background:
+          'linear-gradient(180deg, #18181b 0%, #3f1d10 55%, #7c2d12 100%)',
+      }}
     >
       {/* AFTER (smoldering peat) full */}
       <SceneImage src="/images/after.jpg" alt="Lahan gambut terbakar di bawah tanah" />
       {/* BEFORE (lush green) clipped to left */}
       <div
         className="absolute inset-0"
-        style={{ clipPath: `inset(0 ${100 - pos}% 0 0)` }}
+        style={{
+          clipPath: `inset(0 ${100 - pos}% 0 0)`,
+          background:
+            'linear-gradient(180deg, #0c3a26 0%, #16512f 45%, #1f7a3d 100%)',
+        }}
       >
         <SceneImage src="/images/before.jpg" alt="Hutan gambut tropis yang lembap dan hijau" />
       </div>
