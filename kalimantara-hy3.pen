@@ -1,0 +1,503 @@
+{
+  "version": "2.17",
+  "fileToken": "91330bf2-1349-48f9-b7e5-d0382c6157c4",
+  "children": [
+    {
+      "type": "frame",
+      "id": "board",
+      "x": 0,
+      "y": 0,
+      "name": "Save Hutan Kalimantan — kalimantara-hy3 (Design Board)",
+      "clip": true,
+      "width": 1440,
+      "fill": "#0f2e1c",
+      "children": [
+        {
+          "type": "frame",
+          "id": "nav",
+          "name": "Nav (glass, fixed)",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 72,
+          "fill": "#0f2e1c",
+          "cornerRadius": 0,
+          "children": [
+            {
+              "type": "text",
+              "id": "nav-brand",
+              "name": "Brand",
+              "x": 64,
+              "y": 22,
+              "width": 280,
+              "height": 28,
+              "text": "Save Hutan Kalimantan",
+              "fontFamily": "Fraunces",
+              "fontSize": 20,
+              "fontWeight": 700,
+              "fill": "#ffffff",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "id": "nav-cta",
+              "name": "CTA — Gabung Aksi",
+              "x": 1240,
+              "y": 18,
+              "width": 136,
+              "height": 36,
+              "text": "Gabung Aksi",
+              "fontFamily": "Plus Jakarta Sans",
+              "fontSize": 14,
+              "fontWeight": 600,
+              "fill": "#ffffff",
+              "align": "center"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hero",
+          "name": "1 · Hero",
+          "x": 0,
+          "y": 72,
+          "width": 1440,
+          "height": 900,
+          "fill": "#0f2e1c",
+          "children": [
+            {
+              "type": "text",
+              "id": "hero-kicker",
+              "name": "Kicker",
+              "x": 320,
+              "y": 200,
+              "width": 800,
+              "height": 24,
+              "text": "KAMPANYE EDUKASI LINGKUNGAN",
+              "fontFamily": "Plus Jakarta Sans",
+              "fontSize": 13,
+              "fontWeight": 600,
+              "fill": "#95d5b2",
+              "align": "center"
+            },
+            {
+              "type": "text",
+              "id": "hero-headline",
+              "name": "Headline",
+              "x": 240,
+              "y": 250,
+              "width": 960,
+              "height": 240,
+              "text": "Napas Kalimantan Sedang Tercekik: Pahami, Lindungi, Suarakan.",
+              "fontFamily": "Fraunces",
+              "fontSize": 68,
+              "fontWeight": 800,
+              "fill": "#ffffff",
+              "align": "center"
+            },
+            {
+              "type": "text",
+              "id": "hero-sub",
+              "name": "Subtitle",
+              "x": 320,
+              "y": 520,
+              "width": 800,
+              "height": 80,
+              "text": "Eksplorasi interaktif perjalanan hutan hujan dan lahan gambut terbesar Nusantara.",
+              "fontFamily": "Plus Jakarta Sans",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "fill": "#d1fae5",
+              "align": "center"
+            },
+            {
+              "type": "text",
+              "id": "hero-cta",
+              "name": "Scroll CTA",
+              "x": 560,
+              "y": 760,
+              "width": 320,
+              "height": 40,
+              "text": "Mulai Membaca Narasi ↓",
+              "fontFamily": "Plus Jakarta Sans",
+              "fontSize": 14,
+              "fontWeight": 600,
+              "fill": "#95d5b2",
+              "align": "center"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "chapter-1",
+          "name": "2 · Chapter 1 — Jantung Zamrud Khatulistiwa",
+          "x": 0,
+          "y": 972,
+          "width": 1440,
+          "height": 920,
+          "fill": "#0f2e1c",
+          "children": [
+            {
+              "type": "text",
+              "id": "c1-title",
+              "name": "Chapter Title",
+              "x": 120,
+              "y": 80,
+              "width": 800,
+              "height": 80,
+              "text": "Jantung Zamrud Khatulistiwa",
+              "fontFamily": "Fraunces",
+              "fontSize": 52,
+              "fontWeight": 800,
+              "fill": "#ffffff",
+              "align": "left"
+            },
+            {
+              "type": "frame",
+              "id": "c1-card-a",
+              "name": "Stat — 40.5 Juta Hektar (Bento wide)",
+              "x": 120,
+              "y": 220,
+              "width": 760,
+              "height": 360,
+              "fill": "#14532d",
+              "cornerRadius": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "c1a-val",
+                  "name": "Value",
+                  "x": 160,
+                  "y": 270,
+                  "width": 400,
+                  "height": 80,
+                  "text": "40.5 Juta Hektar",
+                  "fontFamily": "Fraunces",
+                  "fontSize": 56,
+                  "fontWeight": 800,
+                  "fill": "#ffffff",
+                  "align": "left"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "c1-card-b",
+              "name": "Stat — 3,000+ Spesies Endemik",
+              "x": 900,
+              "y": 220,
+              "width": 420,
+              "height": 360,
+              "fill": "#0a1f12",
+              "cornerRadius": 28
+            },
+            {
+              "type": "frame",
+              "id": "c1-card-c",
+              "name": "Stat — Cadangan Karbon Raksasa",
+              "x": 120,
+              "y": 600,
+              "width": 1200,
+              "height": 200,
+              "fill": "#0a1f12",
+              "cornerRadius": 28
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "chapter-2",
+          "name": "3 · Chapter 2 — Mengapa Gambut Terbakar Berbulan-bulan?",
+          "x": 0,
+          "y": 1892,
+          "width": 1440,
+          "height": 1040,
+          "fill": "#18181b",
+          "children": [
+            {
+              "type": "text",
+              "id": "c2-title",
+              "name": "Chapter Title",
+              "x": 120,
+              "y": 80,
+              "width": 1000,
+              "height": 120,
+              "text": "Mengapa Gambut Terbakar Berbulan-bulan?",
+              "fontFamily": "Fraunces",
+              "fontSize": 48,
+              "fontWeight": 800,
+              "fill": "#ffffff",
+              "align": "left"
+            },
+            {
+              "type": "frame",
+              "id": "c2-slider",
+              "name": "Before / After Slider (drag handle)",
+              "x": 120,
+              "y": 240,
+              "width": 1200,
+              "height": 460,
+              "fill": "#27272a",
+              "cornerRadius": 28
+            },
+            {
+              "type": "frame",
+              "id": "c2-anat-1",
+              "name": "Anatomy — Kanal Pengeringan",
+              "x": 120,
+              "y": 740,
+              "width": 380,
+              "height": 220,
+              "fill": "#1f1f23",
+              "cornerRadius": 24
+            },
+            {
+              "type": "frame",
+              "id": "c2-anat-2",
+              "name": "Anatomy — Bara di Bawah Tanah",
+              "x": 530,
+              "y": 740,
+              "width": 380,
+              "height": 220,
+              "fill": "#1f1f23",
+              "cornerRadius": 24
+            },
+            {
+              "type": "frame",
+              "id": "c2-anat-3",
+              "name": "Anatomy — Asap Beracun Lintas Batas",
+              "x": 940,
+              "y": 740,
+              "width": 380,
+              "height": 220,
+              "fill": "#1f1f23",
+              "cornerRadius": 24
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "chapter-3",
+          "name": "4 · Chapter 3 — Mitos vs Fakta",
+          "x": 0,
+          "y": 2932,
+          "width": 1440,
+          "height": 820,
+          "fill": "#18181b",
+          "children": [
+            {
+              "type": "text",
+              "id": "c3-title",
+              "name": "Chapter Title",
+              "x": 120,
+              "y": 80,
+              "width": 600,
+              "height": 80,
+              "text": "Mitos vs. Fakta",
+              "fontFamily": "Fraunces",
+              "fontSize": 52,
+              "fontWeight": 800,
+              "fill": "#ffffff",
+              "align": "left"
+            },
+            {
+              "type": "frame",
+              "id": "c3-acc-1",
+              "name": "Accordion — Mitos: bencana alam? / Fakta: 99% manusia",
+              "x": 120,
+              "y": 220,
+              "width": 1200,
+              "height": 200,
+              "fill": "#1f1f23",
+              "cornerRadius": 24
+            },
+            {
+              "type": "frame",
+              "id": "c3-acc-2",
+              "name": "Accordion — Mitos: lokal? / Fakta: PM2.5 lintas negara",
+              "x": 120,
+              "y": 450,
+              "width": 1200,
+              "height": 200,
+              "fill": "#1f1f23",
+              "cornerRadius": 24
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "chapter-4",
+          "name": "5 · Chapter 4 — Dampak Nyata pada Manusia & Satwa",
+          "x": 0,
+          "y": 3752,
+          "width": 1440,
+          "height": 920,
+          "fill": "#2d6a4f",
+          "children": [
+            {
+              "type": "text",
+              "id": "c4-title",
+              "name": "Chapter Title",
+              "x": 120,
+              "y": 80,
+              "width": 1000,
+              "height": 120,
+              "text": "Dampak Nyata pada Manusia & Satwa",
+              "fontFamily": "Fraunces",
+              "fontSize": 48,
+              "fontWeight": 800,
+              "fill": "#ffffff",
+              "align": "left"
+            },
+            {
+              "type": "frame",
+              "id": "c4-step-1",
+              "name": "Timeline 1 — Degradasi Habitat",
+              "x": 120,
+              "y": 260,
+              "width": 380,
+              "height": 380,
+              "fill": "#1f5140",
+              "cornerRadius": 28
+            },
+            {
+              "type": "frame",
+              "id": "c4-step-2",
+              "name": "Timeline 2 — Krisis Kualitas Udara (ISPU)",
+              "x": 530,
+              "y": 260,
+              "width": 380,
+              "height": 380,
+              "fill": "#1f5140",
+              "cornerRadius": 28
+            },
+            {
+              "type": "frame",
+              "id": "c4-step-3",
+              "name": "Timeline 3 — Peningkatan Emisi Global",
+              "x": 940,
+              "y": 260,
+              "width": 380,
+              "height": 380,
+              "fill": "#1f5140",
+              "cornerRadius": 28
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "chapter-5",
+          "name": "6 · Chapter 5 — Amplifikasi & Digital Toolkit",
+          "x": 0,
+          "y": 4672,
+          "width": 1440,
+          "height": 1040,
+          "fill": "#2d6a4f",
+          "children": [
+            {
+              "type": "text",
+              "id": "c5-title",
+              "name": "Chapter Title",
+              "x": 120,
+              "y": 80,
+              "width": 900,
+              "height": 80,
+              "text": "Suaramu adalah Alat Pelindung",
+              "fontFamily": "Fraunces",
+              "fontSize": 52,
+              "fontWeight": 800,
+              "fill": "#ffffff",
+              "align": "left"
+            },
+            {
+              "type": "text",
+              "id": "c5-hashtag",
+              "name": "Hashtag",
+              "x": 120,
+              "y": 170,
+              "width": 400,
+              "height": 40,
+              "text": "#SaveHutanKalimantan",
+              "fontFamily": "Fraunces",
+              "fontSize": 28,
+              "fontWeight": 800,
+              "fill": "#95d5b2",
+              "align": "left"
+            },
+            {
+              "type": "frame",
+              "id": "c5-dl-1",
+              "name": "Download — Digital Stickers",
+              "x": 120,
+              "y": 260,
+              "width": 380,
+              "height": 300,
+              "fill": "#1f5140",
+              "cornerRadius": 28
+            },
+            {
+              "type": "frame",
+              "id": "c5-dl-2",
+              "name": "Download — Infographic Pack",
+              "x": 530,
+              "y": 260,
+              "width": 380,
+              "height": 300,
+              "fill": "#1f5140",
+              "cornerRadius": 28
+            },
+            {
+              "type": "frame",
+              "id": "c5-dl-3",
+              "name": "Download — IG Story Template",
+              "x": 940,
+              "y": 260,
+              "width": 380,
+              "height": 300,
+              "fill": "#1f5140",
+              "cornerRadius": 28
+            },
+            {
+              "type": "frame",
+              "id": "c5-share",
+              "name": "1-Click Share — WhatsApp + X/Twitter",
+              "x": 120,
+              "y": 600,
+              "width": 1200,
+              "height": 320,
+              "fill": "#0f2e1c",
+              "cornerRadius": 28
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "footer",
+          "name": "Footer",
+          "x": 0,
+          "y": 5712,
+          "width": 1440,
+          "height": 300,
+          "fill": "#081a0f",
+          "children": [
+            {
+              "type": "text",
+              "id": "footer-brand",
+              "name": "Brand",
+              "x": 120,
+              "y": 120,
+              "width": 360,
+              "height": 28,
+              "text": "Save Hutan Kalimantan",
+              "fontFamily": "Fraunces",
+              "fontSize": 20,
+              "fontWeight": 700,
+              "fill": "#ffffff",
+              "align": "left"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
