@@ -2,56 +2,14 @@ import { useCallback, useRef, useState } from 'react'
 import { Flame, Layers, Wind, AlertTriangle } from 'lucide-react'
 import useReveal from '../hooks/useReveal'
 
-function LushScene() {
+function SceneImage({ src, alt, className }) {
   return (
-    <div className="absolute inset-0">
-      <div
-        className="absolute inset-0"
-        style={{
-          background:
-            'linear-gradient(180deg, #0c3a26 0%, #16512f 45%, #1f7a3d 100%)',
-        }}
-      />
-      <div
-        className="absolute inset-0 opacity-70"
-        style={{
-          background:
-            'radial-gradient(60% 50% at 30% 80%, rgba(110,231,183,0.35), transparent 70%), radial-gradient(50% 40% at 75% 60%, rgba(16,185,129,0.3), transparent 70%)',
-        }}
-      />
-      <svg className="absolute inset-x-0 bottom-0 h-1/2 w-full" viewBox="0 0 400 200" preserveAspectRatio="none">
-        <path d="M0 200 Q 60 120 120 160 T 260 150 T 400 170 L400 200Z" fill="#0a2c1c" opacity="0.8" />
-        <path d="M0 200 Q 90 150 180 175 T 400 185 L400 200Z" fill="#061f14" />
-      </svg>
-    </div>
-  )
-}
-
-function FireScene() {
-  return (
-    <div className="absolute inset-0">
-      <div
-        className="absolute inset-0"
-        style={{
-          background:
-            'linear-gradient(180deg, #18181b 0%, #3f1d10 55%, #7c2d12 100%)',
-        }}
-      />
-      <div
-        className="absolute inset-0"
-        style={{
-          background:
-            'radial-gradient(55% 45% at 50% 75%, rgba(234,88,12,0.85), rgba(185,28,28,0.35) 50%, transparent 75%)',
-        }}
-      />
-      <div
-        className="absolute inset-0 opacity-60 mix-blend-screen"
-        style={{
-          background:
-            'repeating-linear-gradient(115deg, transparent 0 18px, rgba(255,120,40,0.18) 18px 22px)',
-        }}
-      />
-    </div>
+    <img
+      src={src}
+      alt={alt}
+      draggable={false}
+      className={`absolute inset-0 h-full w-full object-cover ${className || ''}`}
+    />
   )
 }
 
@@ -89,14 +47,14 @@ function BeforeAfterSlider() {
       onPointerUp={onPointerUp}
       className="relative h-[340px] w-full cursor-ew-resize select-none overflow-hidden rounded-3xl border border-white/10 sm:h-[460px]"
     >
-      {/* AFTER (fire) full */}
-      <FireScene />
-      {/* BEFORE (lush) clipped to left */}
+      {/* AFTER (smoldering peat) full */}
+      <SceneImage src="/images/after.jpg" alt="Lahan gambut terbakar di bawah tanah" />
+      {/* BEFORE (lush green) clipped to left */}
       <div
         className="absolute inset-0"
         style={{ clipPath: `inset(0 ${100 - pos}% 0 0)` }}
       >
-        <LushScene />
+        <SceneImage src="/images/before.jpg" alt="Hutan gambut tropis yang lembap dan hijau" />
       </div>
 
       {/* Labels */}
